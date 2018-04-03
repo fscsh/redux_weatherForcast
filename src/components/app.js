@@ -9,7 +9,7 @@ export default class App extends Component {
       <div>
           <Alarm />
           <SearchBar />
-            <WeatherList />
+          <WeatherList />
         </div>
     );
   }
