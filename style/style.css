@@ -1,11 +1,14 @@
+
 .title{
     text-align: center !important;
     margin-top: 10px;
     font-size: 50px;
 }
-td,th{
+.table td,th{
     vertical-align: middle !important;
     text-align: center !important;
+    border-color: grey;
+
 }
 
 .input-group{
@@ -14,7 +17,40 @@ td,th{
 svg {
     height: 150px;
 }
-td:first-of-type, td:first-of-type > div{
+.table td:first-of-type, td:first-of-type > div{
     height: 200px;
     width: 250px;
+    border-color: grey;
+
+}
+
+.cityName th, td {
+    border: 1px solid #eceeef !important;
+
+}
+.cityName th, td {
+    padding: 2px !important;
+    margin-left: 3px;
+    text-align: left;
+
+
+}
+.tablePosition {
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+.cityTable {
+  position: absolute !important;
+  width: 100% !important;
+  height: 100% !important;
+  top: 1px !important;
+
+}
+.cityName{
+    border: 1px solid;
+    border-color: #eceeef !important;
+    border-radius: 3px !important;
+    border-collapse: initial !important;
+
 }
